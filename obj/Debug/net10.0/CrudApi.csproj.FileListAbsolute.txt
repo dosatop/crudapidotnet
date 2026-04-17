@@ -1,0 +1,9 @@
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.csproj.AssemblyReference.cache
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.AssemblyInfoInputs.cache
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.AssemblyInfo.cs
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.csproj.CoreCompileInputs.cache
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adenu\Desktop\joo\dotnet\CrudApi\obj\Debug\net10.0\CrudApi.sourcelink.json
