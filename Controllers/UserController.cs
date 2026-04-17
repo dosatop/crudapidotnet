@@ -43,7 +43,15 @@ public class UserController : ControllerBase
             Role = user.Role ?? "User",
         };
         var createdUser = await _userService.CreateUser(user);
-        return CreatedAtAction(nameof(GetAllUsers), new { id = createdUser.Id, name = createdUser.Name, email = createdUser.Email, role = createdUser.Role });
+
+        var response = new UserResponseDto
+        {
+            Id = createdUser.Id,
+            Name = createdUser.Name,
+            Email = createdUser.Email,
+            Role = createdUser.Role ?? "User"
+        };
+        return CreatedAtAction(nameof(GetAllUsers), new { id = createdUser.Id }, response);
     }
 
     [Authorize(Roles = "Admin")]
