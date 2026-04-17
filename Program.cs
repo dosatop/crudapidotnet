@@ -73,7 +73,6 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-// builder.Services.AddSingleton<UserService>();
 
 var app = builder.Build();
 
