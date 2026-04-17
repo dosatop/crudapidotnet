@@ -41,8 +41,8 @@ builder.Services.AddRateLimiter(options =>
 //     // leave default, just ensuring no interference
 // });
 // Add services to the container.
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// builder.Services.AddDbContext<AppDbContext>(options =>
+//     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<UserService>();
 
@@ -71,6 +71,8 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 // builder.Services.AddSingleton<UserService>();
 
 var app = builder.Build();
